@@ -70,10 +70,10 @@ name && Email && Age  && (check ? guest:true) ?setsummary(true) :alert('Fill out
    <input className='mx-auto bg-blue-600 hover:bg-blue-400 w-[4rem] h-[2rem] rounded' onClick={submitter}   type='submit'/>
 </form>
 {summary &&
-<div className='bg-white opacity-90 absolute x-auto  summary rounded shadow-lg items-center flex flex-col top-2px  h-[70vh] w-[43rem]'>
+<div className='bg-white opacity-90 absolute x-auto   summary rounded shadow-lg items-center flex flex-col top-0  h-[75vh] w-[43rem]'>
 <button onClick={()=>{setsummary(false)}} className='ml-0 text-[1.5rem] hover:text-red-500 mt-0'>X</button>
-  <span className='mt-[3rem] text-zinc-600 font-sm text-[3rem]'>Summary of form</span>
-  <div className='flex mt-[5rem] text-[1.3rem] font-thin gap-[2rem] flex-col'>
+  <span className='mt-[3rem] text-zinc-600 font-sm text-[2rem]'>Summary of form</span>
+  <div className='flex mt-[3rem] text-[1.3rem] font-thin gap-[1.2rem] flex-col'>
 <span> Name: {name}</span>
 <span>Email: {Email}</span>
 <span>Age: {Age}</span>
