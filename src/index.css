@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (max-width:628px) {
+    .form{
+        width:30rem;
+    }
+    .inputall{
+        width: 22rem;
+    }
+    .inputall1{
+        width: 12rem;
+    }
+}
+@media (max-width:520px) {
+    .form{
+        width:20rem;
+    }
+    .inputall{
+        width: 12rem;
+    }
+    .inputall1{
+        width: 5rem;
+    }
+}
