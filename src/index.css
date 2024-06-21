@@ -40,3 +40,8 @@
        width: 25rem;
     }
    }
+   @media (max-width:60px) {
+    .summary{
+       width: 15rem;
+    }
+   }
